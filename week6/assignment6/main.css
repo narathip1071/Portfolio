@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(125, 169, 207);
+    
+}
+
+fieldset{
+    background-color: aliceblue;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 10px;
+}
+div{
+    margin-left: 20%;
+}
+legend
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic; 
+}
+#decmyLogin
+{
+    padding-left: 5%;
+    width: 25%;
+    
+}
+@media screen  and (max-width: 450px) {
+    fieldset{
+        background-color: aliceblue;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0%;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        border-radius: 10%;
+    }
+    div{
+        margin-left: 0%;
+    }
+    
+
+}
+
+
